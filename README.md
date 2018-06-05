@@ -3,8 +3,8 @@
 [![Dependency Check](http://img.shields.io/david/openshift-roadshow/nationalparks-js.svg)](https://david-dm.org/openshift-roadshow/nationalparks-js)
 
 ## Usage
-Tesing Ooenshift with nationalparks-js forked from https://github.com/openshift-roadshow/nationalparks-js/. 
-To launch the app first login to your local OpenShift cluster and select a project, then run:
+Tesing Openshift with nationalparks-js forked from https://github.com/openshift-roadshow/nationalparks-js/. 
+To launch the app first login into the local OpenShift cluster and select a project, then run:
 ```bash
 oc process -f https://raw.githubusercontent.com/ryanj/nationalparks-js/master/nationalparks-js.json | oc create -f -
 ```
